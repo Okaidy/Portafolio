@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed|Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="flexbox/flexboxgrid.min.css"/>
+  <link rel="stylesheet" type="text/css" href="fullpage/javascript.fullPage.css"/>
+  <link rel="stylesheet" href="font/css/font-awesome.css">
+  <link rel="stylesheet" href="font/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/download.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <script type="text/javascript" src="fullpage/javascript.fullPage.js"></script>
+  <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+</head>
+<body>
+  <div id="fullpage">
+    <div class="section">
+      <div class="row center-md center-xs">
+         <div class="col-md-12 col-xs-12">
+          <p class="about font60">Hola</p>
+        </div>
+      </div>
+      <div class="row center-md center-xs">
+        <div class="col-md-6 col-xs-12">
+          <div class="perfil">
+            <img src="images/foto.jpg" alt="foto">
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12 about font20">
+          <p>Soy desarrolladora web por pasión, ingeniera en computacion por vocación, mamá por amor y crochetera en mis tiempos libres.Nací en el hermoso Estado de Guerreo, actualmente vivo en la caótica Cd. de México. Me encanta aprender cosas nuevas y acompañar a otros en su aprendizaje.</p>
+        </div>
+      </div>
+      <div class="row center-md center-xs">
+        <div class="col-md-12 about font20">
+          <p>¿Quieres saber mas de mí?</p>
+          <div class="download-wrap mrgtp5">
+            <div class="download">
+              <a href="#" class="button-download">
+                <span>CV</span>
+                <span class="icon-wrap">
+                  <i class="icon-download"></i>
+                </span>
+              </a>
+              <div class="meter">
+                <span class="meter-progress"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    fullpage.initialize('#fullpage', {
+      anchors: ['firstPage', 'lastPage'],
+      menu: '#menu',
+      css3:true
+    });
+  </script>
+  <script src="js/download.js"></script>
+  <script src="js/skill.js"></script>
+</body>
+</html>
+

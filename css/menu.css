@@ -1,0 +1,105 @@
+/*Menu*/
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  z-index: 70;
+  padding: 0;
+  margin: 30px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color:black;
+}
+
+.modal.is_active{
+  display: block;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.nav .nav-item {
+  padding: 20px 40px;
+  font-size: 40px;
+  font-weight: 300;
+  font-family: 'Stint Ultra Condensed', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;  
+}
+
+.nav:hover .nav-item {
+  padding: 18px 0px;
+  font-family: 35px;
+  
+}  
+
+.nav:hover .nav-item:hover{
+  padding: 16px 0px;
+  font-size: 45px;
+}
+
+.nav .nav-item a {
+  position: relative;
+  color: white;
+}
+
+.nav .nav-item a::after,
+.nav .nav-item a::before {
+  content: "-";
+  font-size: 45px;
+  color: #008080;
+  opacity: 0;
+  position: absolute;
+  top:-5px;
+    
+  -moz-transition: all .8s ease;
+  -webkit-transition: all .8s ease;
+  -ms-transition: all .8s ease;
+  -o-transition: all .8s ease;
+  transition: all .8s ease;      
+}
+
+.nav .nav-item a::after {
+  right: -150px;
+}
+
+.nav .nav-item a::before {
+  left: -150px;
+}
+
+.nav:hover .nav-item:hover a::after,
+.nav:hover .nav-item:hover a::before {
+  /*top: 0px;*/
+  opacity: 1;
+}
+
+.nav:hover .nav-item:hover a::before {
+  left: -20px;
+}
+
+.nav:hover .nav-item:hover a::after {
+  right: -20px;
+}

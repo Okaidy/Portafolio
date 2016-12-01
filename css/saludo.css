@@ -1,15 +1,10 @@
-@media only screen and (max-width: 48em) {
-  div.content {
-    top:80px;
-  }
-}
 .content {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 70px;
+  line-height: 80px;
   font-family: 'Stint Ultra Condensed', cursive;
   color: black;
   height: 160px;
@@ -19,19 +14,19 @@
 .visible {
   font-weight: 600;
   overflow: hidden;
-  height: 60px;
-  padding: 0 45px;
+  height: 80px;
+  padding: 0 65px;
 }
 .visible:before {
   content: '<';
   left: 0;
-  line-height: 60px;
+  line-height: 80px;
 }
 .visible:after {
   content: '/>';
   position: absolute;
   right: 0;
-  line-height:60px;
+  line-height:80px;
 }
 
 .visible:after, .visible:before {
@@ -39,7 +34,7 @@
   top: 0;
 
   color: #008080;
-  font-size: 57px;
+  font-size: 87px;
 }
 
 .visible p {
@@ -50,7 +45,7 @@
 
 ul {
   margin-top: 0;
-  padding-left: 80px;
+  padding-left: 120px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
@@ -62,7 +57,7 @@ ul {
 }
 
 ul li {
-  line-height: 60px;
+  line-height: 80px;
   margin:0;
 }
 

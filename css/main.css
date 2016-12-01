@@ -112,11 +112,11 @@ a {
   font-size: 50px;
 }
 
-.titulo {
+/*.titulo {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}
+}*/
 
 .title {
   font-family: 'Stint Ultra Condensed', cursive;
@@ -140,6 +140,10 @@ a {
   background-color: black;
   color:white;
   font-family: 'Courier';
+}
+
+.mgprincipal {
+  margin-top: 120px;
 } 
 
 .icons {

@@ -47,11 +47,16 @@
     flex:100%;
   }
 
-  p.verde {
-    color: pink;
+  div.perfil {
+    width: 500px;
+    height:500px;
+    margin-top: 30px;
   }
 
-
+  div.about {
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+  }
 
 
   div.mt {
@@ -145,7 +150,22 @@ a {
 #uno {
   background-color: black;
   color:white;
+}
+
+.etiqueta {
+  /*font-family: 'Courier',monospace;*/
+   font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 150px;
+}
+
+.clase {
+  font-family:'Stint Ultra Condensed', cursive;
+  font-size: 80px; 
+}
+
+.comentario {
   font-family: 'Courier',monospace;
+  font-size:30px;
 }
 
 .mgprincipal {
@@ -153,12 +173,12 @@ a {
 } 
 
 .icons {
-  padding-top: 80px; 
+  padding: 40px 0; 
 }
 
 .icons div {
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
   margin: 0 20px;
   display: inline-block;
 } 
@@ -203,7 +223,7 @@ a {
   bottom: 15px;
   position: absolute;
   right: 50%;
-  margin-right: -31.34px;
+  margin-right: -32px;
 } 
 
 .down a {

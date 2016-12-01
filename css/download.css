@@ -1,9 +1,13 @@
 .sqrcv {
-  margin-top: 15%;
+  bottom:2%;
+  position: absolute;
+  right: 50%;
+  /*top: 100%;*/
+  margin-right: -169.75px;
 }
 
 .cv {
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Inconsolata', monospace;
   margin-top: 2%;
   margin-bottom: 3%;
@@ -19,7 +23,7 @@
   font-weight: bold;
   font-family:'Courier', monospace;
   /*font-family: 'Open Sans', sans-serif;*/
-  font-size: 1.15rem;
+  font-size: 20px;
   line-height: 65px;
   text-transform: uppercase;
   text-align: center;

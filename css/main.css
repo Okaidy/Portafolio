@@ -29,9 +29,13 @@
 /*sm*/
 @media only screen and (max-width: 61.938em) {
   /*about*/
-  .icons div {
+  div.icons div {
     width: 80px;
     height: 80px;
+  }
+
+  span.verde {
+    color:red;
   }
 
 

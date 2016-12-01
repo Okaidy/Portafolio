@@ -19,7 +19,7 @@
   }
 }
 
-/*sm*/
+/*sm- celular*/
 @media only screen and (max-width: 61.938em) {
   /*about*/
   p.font50 {
@@ -50,12 +50,12 @@
   div.perfil {
     width: 500px;
     height:500px;
-    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   div.about {
     font-family: 'Inconsolata', monospace;
-    font-size: 50px;
+    font-size: 46px;
   }
 
 

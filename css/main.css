@@ -88,6 +88,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.auto {
+  margin: auto;
+}
+
 .verde {
   color: #008080;
 }
@@ -207,17 +212,19 @@ a {
   border-radius: 100%;
   overflow: hidden;
   margin: auto;
-  background-color: black;
-  background-image: url('../images/avatar.png');
-  background-size: contain;
-  background-position: center; 
+  /*background-color: black;*/
+  background-image: url('../images/perfil2.jpg');
+  background-size: cover;
+  background-position:top center; 
   background-repeat: no-repeat;
-
+  border:5px solid #008080;
 }
 
-.perfil:hover {
-  background-image: url('../images/foto.jpg');
-}
+./*perfil:hover {
+  background-image: url('../images/perfil2.jpg');
+  background-size: cover;
+  background-position: top center;
+}*/
 
 /*pagina proyectos*/
 .mgproyecto {

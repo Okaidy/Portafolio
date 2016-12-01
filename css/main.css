@@ -1,16 +1,9 @@
-/*celular*/
-
-
 /*xs*/
 @media only screen and (max-width: 48em) {
   /*uno*/
   p.font25 {
     font-size: 20px;
   }
-
-
-  /*about*/
-
 
   div.mrgabout {
     margin-top: 25%;
@@ -41,6 +34,20 @@
     width: 70px;
     height: 70px;
   }
+
+  div.contenedor {
+    flex-wrap: wrap;
+  }
+
+  div.foto{
+    flex:100%;
+  }
+
+  div.about {
+    flex:100%;
+  }
+
+
 
 
   div.mt {
@@ -134,7 +141,7 @@ a {
 #uno {
   background-color: black;
   color:white;
-  font-family: 'Courier';
+  font-family: 'Courier',monospace;
 }
 
 .mgprincipal {
@@ -204,12 +211,24 @@ a {
   margin-top: 14%;
 }
 
+.contenedor {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.foto {
+  flex:1;
+}
+
+
 .about {
   font-family: 'Inconsolata', monospace;
-  font-size: 28px;
+  font-size: 32px;
   /*margin-top: 34px;*/
   text-align: center;
   padding:0 8% 0 5%;
+  flex:2;
 }
 
 .perfil {

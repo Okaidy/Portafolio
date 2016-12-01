@@ -1,3 +1,5 @@
+/*celular*/
+
 
 /*xs*/
 @media only screen and (max-width: 48em) {
@@ -6,10 +8,8 @@
     font-size: 20px;
   }
 
-  div.icons div {
-    margin: 0 10px;
-  }
 
+  /*about*/
 
 
   div.mrgabout {
@@ -29,12 +29,18 @@
 /*sm*/
 @media only screen and (max-width: 61.938em) {
   /*about*/
-
-  div.perfil {
-    width: 200px;
-    height: 200px;
+  p.font50 {
+    font-size: 90px;
   }
 
+  p.font25 {
+    font-size: 45px;
+  }
+  
+  div.icons div {
+    width: 70px;
+    height: 70px;
+  }
 
 
   div.mt {
@@ -94,11 +100,11 @@ a {
 }
 
 .font25 {
-  font-size: 45px;
+  font-size: 25px;
 }
 
 .font50 {
-  font-size: 90px;
+  font-size: 50px;
 }
 
 .titulo {
@@ -140,8 +146,8 @@ a {
 }
 
 .icons div {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   margin: 0 20px;
   display: inline-block;
 } 

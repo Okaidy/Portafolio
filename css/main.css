@@ -63,19 +63,25 @@
   }
 
   a.fa-4x {
-    font-size: 6em;
+    font-size: 7em;
   }
 
    div.mrgtp7 {
     margin-top: 8%;
   }
 
+  a.social span {
+    font-size:20px;
+    width: 250px;
+    margin-left: -125px; 
+  }
+
   a.social:hover span {
-    bottom:90px;
+    bottom:130px;
   }
 
   div.mt {
-    margin-top: 70px;
+    margin-top: 80px;
   }
 
   .mt:nth-child(3) {

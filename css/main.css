@@ -59,9 +59,16 @@
   }
 
   div.pro {
-    height: 390px;
+    height: 370px;
   }
 
+  a.fa-4x {
+    font-size: 6em;
+  }
+
+   div.mrgtp7 {
+    margin-top: 8%;
+  }
 
   div.mt {
     margin-top: 70px;
@@ -80,7 +87,7 @@
   }
 
   div.redes {
-    flex-grow: 50%;
+    flex-grovw: 50%;
     margin:0 5%;
   }
 

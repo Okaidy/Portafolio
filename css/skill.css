@@ -2,6 +2,10 @@
   div.skill {
     visibility: hidden;
   }
+
+  div.skillcontent {
+    visibility: visible;
+  }
 }
 
 .mgskill {
@@ -151,15 +155,17 @@
 
 .skillmobile {
   position: absolute;
-  top: 10%;
-  /*transform: translateY(-100%);*/
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   flex-wrap: wrap
+  /*visibility:hidden;*/
 }
 .skillcontent {
   display: flex;
   flex-wrap: wrap;
   margin:auto;
+  visibility: hidden;
 }
 
 .skillcontent div{

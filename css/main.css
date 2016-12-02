@@ -59,7 +59,7 @@
   }
 
   div.pro {
-    height: 370px;
+    height: 360px;
   }
 
   a.fa-4x {
@@ -68,6 +68,10 @@
 
    div.mrgtp7 {
     margin-top: 8%;
+  }
+
+  a.social:hover span {
+    bottom:90px;
   }
 
   div.mt {

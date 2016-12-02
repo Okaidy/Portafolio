@@ -57,6 +57,9 @@
     font-family: 'Inconsolata', monospace;
     font-size: 46px;
   }
+  div.pro {
+    height: 350px;
+  }
 
 
   div.mt {
@@ -293,6 +296,7 @@ a {
   height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .uno {
@@ -310,10 +314,10 @@ a {
 .cuatro {
   background-image: url("../images/cuatro.png");
 }
-.caja:hover .info {
+.pro:hover .info {
   visibility: visible;
 }
-/*
+
 .info {
   width:160px;
   background: rgba(0,128,128,0.5);
@@ -330,7 +334,7 @@ a {
   margin-left: -80px;
   border-radius: 10px;
   visibility: hidden;
-}*/
+}
 
 /*video { 
   width: 90%;

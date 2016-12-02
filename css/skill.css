@@ -1,3 +1,9 @@
+@media only screen and (max-width: 61.938em) {
+  div.skill {
+    visibility: hidden;
+  }
+}
+
 .mgskill {
   margin-top: 50px;
 }
@@ -31,25 +37,29 @@
 }*/
 
 .inicio {
-  right: 75%;
+  right: 80%;
 }
 
 .dostres {
-  right: 50%;
+  right: 60%;
 }
 
 .medio {
-  right: 25%;
+  right: 40%;
 }
 
 .experto {
+  right: 20%;
+}
+
+.master {
   right: 0;
 }
 
 .leveltitle p {
   background-color:#008080;
-  padding:10px 20px;
-  width: 120px;
+  padding:10px;
+  width: 100px;
   color:white;
   font-family: 'Courier';
   font-size: 16px;
@@ -94,7 +104,8 @@
   font-weight:bold;
   font-size:13px;
   color:#ffffff;
-  background:#6adcfa;
+  /*background:#333333;*/
+  background:#008080;
   -webkit-border-top-left-radius:3px;
   -webkit-border-bottom-left-radius:4px;
   -moz-border-radius-topleft:3px;
@@ -121,7 +132,7 @@
 .skillbar-bar {
   height:35px;
   width:0px;
-  background:#6adcfa;
+  background:#525252;
   border-radius:3px;
   -moz-border-radius:3px;
   -webkit-border-radius:3px;
@@ -137,3 +148,33 @@
   color:#ffffff;
   color:rgba(0, 0, 0, 0.4);
 }*/
+
+.skillmobile {
+  position: absolute;
+  top: 10%;
+  /*transform: translateY(-100%);*/
+  display: flex;
+  flex-wrap: wrap
+}
+.skillcontent {
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+}
+
+.skillcontent div{
+  width: 200px;
+  flex:33.3%;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.skillcontent img {
+  width: 200px;
+}
+
+.html {
+  display: 1
+}
+
+

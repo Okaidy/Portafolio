@@ -277,25 +277,43 @@ a {
 }*/
 
 /*pagina proyectos*/
-.mgproyecto {
-  margin-top: 150px;
+
+.project {
+  margin-top:30px;
 }
-.caja {
+/*.caja {
   position: relative;
+}*/
+
+/*.sp {
+  padding: 0;
+}*/
+
+.pro {
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+.uno {
+  background-image: url("../images/uno.png");
+}
+
+.dos {
+  background-image: url("../images/dos.png");
+}
+
+.tres {
+  background-image: url("../images/tres.png");
+}
+
+.cuatro {
+  background-image: url("../images/cuatro.png");
+}
 .caja:hover .info {
   visibility: visible;
 }
-
-/*.ver {
-  visibility: visible;
-}*/
-
-/*.oculto {
-  visibility: hidden;
-}*/
-
+/*
 .info {
   width:160px;
   background: rgba(0,128,128,0.5);
@@ -312,28 +330,27 @@ a {
   margin-left: -80px;
   border-radius: 10px;
   visibility: hidden;
-}
+}*/
 
-video { 
-  width: 100%;
-  /*height: 240px;*/
-}
+/*video { 
+  width: 90%;
+}*/
 
-.gris {
-  filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
--webkit-filter: grayscale(100%);
+/*.gris {*/
+  /*filter: url('#grayscale');  Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+/*-webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
 -ms-filter: grayscale(100%);
--o-filter: grayscale(100%);
-filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
-filter: Gray(); /* IE4-8 and 9 */
+-o-filter: grayscale(100%);*/
+/*filter: grayscale(100%);  Para cuando es estándar funcione en todos */
+/*filter: Gray();  IE4-8 and 9 */
 
--webkit-transition: all 0.5s ease;
+/*-webkit-transition: all 0.5s ease;
 -moz-transition: all 0.5s ease;
 -ms-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
-}
+}*/
 
 
 /*contacto*/

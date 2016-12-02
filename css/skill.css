@@ -156,10 +156,10 @@
 .skillmobile {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  margin-top: -381px;
+  /*transform: translateY(-50%);*/
   display: flex;
   flex-wrap: wrap
-  /*visibility:hidden;*/
 }
 .skillcontent {
   display: flex;

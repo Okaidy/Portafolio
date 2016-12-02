@@ -364,15 +364,15 @@ transition: all 0.5s ease;
 }
 .term {
   font-weight: bold;
-  font-size: 45px;
-  font-family:'Courier', monospace;
+  font-size: 50px;
+  /*font-family:'Courier', monospace;*/
   /*vertical-align: top;*/
 }
 
 .contacto {
   font-family:'Courier', monospace;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 50px;
   white-space: normal;
 }
 .text-js{
